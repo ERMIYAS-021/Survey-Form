@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <h1 id="title">Team Null Survey Form</h1>
+    <p id="description">This survey form will help us to improve our services. Fill it genuinely.</p>
+    <hr id="outside">
+    <div class="container">
+        <form action="#" id="survey-form">
+            <label for="name-label"><p class="text">Name</p>
+                <input type="text" id="name" class="inputs"  placeholder="Enter your name" required></label><br>
+            <label for="email-label"><p class="text">Email</p>
+                <input type="email" id="email" class="inputs"  placeholder="Enter your email" required>
+            </label><br>
+            <label for="number-label"><p class="text">Age</p>
+                <input type="number" id="number" class="inputs"  max="45" min="15" placeholder="Enter your age">
+            </label>
+            <hr>
+            <div class="dropdown">
+                <p class="select">Where did you hear about us?</p>
+                <select name="dropdown" id="dropdown">
+                    <option value="0">Select your option</option>
+                    <option value="1">Friend</option>
+                    <option value="2">Youtube</option>
+                    <option value="3">Tiktok</option>
+                    <option value="4">other</option>
+                </select>
+            </div>
+            
+            <div class="radio">
+            <p id="radio">Which describes your current status</p>
+            <input type="radio" name="status"><p class="aa">Student</p>
+            <input type="radio" name="status"><p class="aa"> Full time job</p>
+           
+            <input type="radio" name="status"><p class="aa">  Other</p>      
+            </div>
+            <p class="radio one">Would you recommend Team Null services to a friend?</p>
+            <input type="radio" name="comment"><p class="aa">Absolutely</p>
+            <input type="radio" name="comment"><p class="aa">Maybe</p>
+            <input type="radio" name="comment"><p class="aa">Neutral</p>
+<span>
+    <p class="check">Which of our services do you like more?</p>
+    <input type="checkbox" value="checkbox"><p class="aa">Game Development</p>
+    <input type="checkbox" value="checkbox1"><p class="aa">Web Development</p>
+    
+    <input type="checkbox" value="checkbox2"><p class="aa"> 3D and Graphics design</p>
+   
+    <input type="checkbox" value="checkbox"><p class="aa"> Video Editing</p>
+</span>
+<p class="check">Any other comments?</p>
+<div class="align">
+    <textarea name="comments" id="comment" rows="5" cols="40" placeholder="Enter your comments..."></textarea>
+</div>
+           <hr>
+           <div class="submit">
+            <input type="submit" value="Submit" >  
+           </div>  
+        </form>
+    </div>
+</body>
+</html>
